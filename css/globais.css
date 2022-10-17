@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root{
+    --laranja: #f6aa1c;
+    --Azul: #00072d;
+}
+
+/* Cabeçalho */
+
+header{
+    width: 100%;
+    background-color: var(--Azul);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}
+
+.logo{
+    width: 140px;
+}
+
+h1{
+    color: var(--laranja);
+    font-size: 80pt;
+}
+
+header i{
+    font-size: 80px;
+    color: var(--laranja);
+}
+
+/* Rodapé */
+footer{
+    height: 1080px;
+    background-image: url(../imgs/bgs/Padrão.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+footer h2{
+    margin-top: 100px;
+    color: var(--laranja);
+    font-size: 61.2pt;
+    font-weight: 700;
+}
+
+.social{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#github{
+    width: 196px;
+}
+
+#linkedin{
+    min-width: 196px;   
+    width: 20%;
+}
+
+.socialIcon{
+  width: 100%;
+}
+
+.snorlax{
+    min-width: 196px;
+    width: 50%;
+}

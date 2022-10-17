@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root{
+    --laranja: #f6aa1c;
+    --Azul: #00072d;
+    font-family: 'Comfortaa', cursive;
+}
+
+article:first-child{
+    height: 1080px;
+    background-image: url(../imgs/bgs/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+article:first-child img{
+    width: 30%;
+}
+
+article:first-child img:first-child{
+    animation-name: gengar;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+article:first-child img:last-child{
+    animation-name: pikachu;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+article:last-child{
+    height: 1080px;
+    background-image: url(../imgs/bgs/news-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    gap: 20%;
+}
+
+.balao{
+    width: 1000px;
+    height: 600px;
+    background-color: var(--laranja);
+    border-radius: 380px 0px 380px 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Eribe{
+    width: 350px;
+    display: flex;
+    align-self: flex-end;
+}
+
+.textos{
+    margin-bottom: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textos h3{
+    font-size: 53pt;
+}
+
+.textos p{
+    width: 554px;
+    height: 172px;
+    text-align: left;
+    font-size: 27pt;
+}
+
+@keyframes gengar{
+    0%{
+        transform: translateY(15%) translateX(15%);
+    }
+
+    25%{
+        transform: translateY(-15%) translateX(-15%);
+    }
+
+    50%{
+        transform: translateY(15%) translateX(-15%);
+    }
+
+    100%{
+        transform: translateY(15%) translateX(15%);
+    }
+}
+
+@keyframes pikachu{
+    0%{
+        transform: translateY(-15%) translateX(-15%);
+        
+    }
+
+    25%{
+        transform: translateY(0%) translateX(15%);
+    }
+
+    50%{
+        transform: translateY(0%) translateX(15%);
+    }
+
+    100%{
+        transform: translateY(-15%) translateX(-15%);
+        
+    }
+}

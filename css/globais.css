@@ -35,6 +35,24 @@ header i{
     color: var(--laranja);
 }
 
+#menu{
+    background-color: var(--Azul);
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#opcs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#opcs a{
+    color: var(--laranja);
+}
+
 /* Rodapé */
 footer{
     height: 1080px;

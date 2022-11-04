@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
 
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    text-decoration: none;
-}
-
 :root{
     --laranja: #f6aa1c;
     --Azul: #00072d;
@@ -108,20 +101,20 @@ article:last-child{
 
 @keyframes pikachu{
     0%{
-        transform: translateY(-15%) translateX(-15%);
+        transform: translateY(-10%) translateX(-5%);
         
     }
 
     25%{
-        transform: translateY(0%) translateX(15%);
+        transform: translateY(0%) translateX(5%);
     }
 
     50%{
-        transform: translateY(0%) translateX(15%);
+        transform: translateY(0%) translateX(5%);
     }
 
     100%{
-        transform: translateY(-15%) translateX(-15%);
+        transform: translateY(-10%) translateX(-5%);
         
     }
 }

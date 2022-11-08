@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="../css/style-elenco.css">
     <title>Unitedéx</title>
 </head>
-<body>
+<body onload="caixas()">
     <header>
         <a href="../index.html" target="_self"><img src="../imgs/logos/unite-logo.png" alt="Logo" class="logo"></a>
         <h1>Unitedéx</h1>
@@ -35,73 +35,25 @@
     <main>
         <h2 class="titulo">Pokedéx Unite</h2>
         <div class="classes">
-            <div class="classe" id="versatil">
+            <div class="classe">
                 <h3 class="classe-tipo">Versátil</h3>
-                <div class="box">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                </div>
+                <div class="box" id="versatil"></div>
             </div>
-            <div class="classe" id="atacante">
+            <div class="classe">
                 <h3 class="classe-tipo">Atacante</h3>
-                <div class="box">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                </div>
+                <div class="box" id="atacante"></div>
             </div>
-            <div class="classe" id="defensor">
+            <div class="classe">
                 <h3 class="classe-tipo">Defensor</h3>
-                <div class="box">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                </div>
+                <div class="box" id="defensor"></div>
             </div>
-            <div class="classe" id="suporte">
+            <div class="classe">
+                <h3 class="classe-tipo">Velocista</h3>
+                <div class="box" id="velocista"></div>
+            </div>
+            <div class="classe">
                 <h3 class="classe-tipo">Suporte</h3>
-                <div class="box">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                    <img src="../imgs/iconePokemon/Absol.png" alt="" class="poke-icon">
-                </div>
+                <div class="box" id="suporte"></div>
             </div>
         </div>
     </main>
@@ -116,5 +68,6 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/2d311d7657.js" crossorigin="anonymous"></script>
+    <script src="../js/elenco-script.js"></script>
 </body>
 </html>

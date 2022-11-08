@@ -30,7 +30,7 @@ main{
 .classes{
     padding: 50px;
     display: flex;
-    gap: 50px;
+    gap: 15px;
 }
 
 .classe{

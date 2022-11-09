@@ -7,17 +7,24 @@
 }
 
 main{
-    height: 1000px;
     background-image: url(../imgs/bgs/background\ \(1\).jpg);
     background-position: center;
     background-size: cover;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.elenco{
     padding: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 200px;
 }
+
+
 
 .titulo{
     width: 70%;
@@ -31,6 +38,8 @@ main{
     padding: 50px;
     display: flex;
     gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .classe{
@@ -64,4 +73,117 @@ main{
     border: 2px solid var(--laranja);
     border-radius: 10px;
     margin: 5px;
+}
+
+/* Pokeinfo */
+
+.pokeinfo{
+    width: 70%;
+    background-image: url(../imgs/bgs/Padrão.jpg);
+    border-radius: 50px;
+    padding: 30px;
+    margin: 200px;  
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.pokeimg{
+    width: 40%;
+    background-color: var(--Azul);
+    border-radius: 50%;
+
+    padding: 20px;
+}
+
+.nomePokemon{
+    color:  aliceblue;
+
+    font-size: 4rem;
+}
+
+.tipoAtaque{
+    width: 40%;
+    background-color: var(--Azul);
+    border-radius: 50px;
+    padding: 10px;
+
+    color: red;
+    font-weight: lighter;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.evo{
+    background-color: var(--Azul);
+    border-radius: 50px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 30px;
+}
+
+.miniCard{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    color: var(--laranja);
+}
+
+.evoIcone{
+    width: 40%;
+    background-color: var(--laranja);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.descriEvo{
+    display: flex;
+    flex-direction: column;
+}
+
+article{
+    background-color: var(--Azul);
+    border-radius: 30px;
+    padding: 50px;
+    gap: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.habilidade{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.nomeHabilidade{
+    font-size: 2.5rem;
+    color: aliceblue;
+}
+
+.tipoHabilidade{
+    font-size: 1.5rem;
+    color: var(--laranja);
+}
+
+.descricao{
+    color: aliceblue;
 }

@@ -61,6 +61,7 @@ article:last-child{
     width: 350px;
     display: flex;
     align-self: flex-end;
+    transition: 200ms;
 }
 
 .textos{

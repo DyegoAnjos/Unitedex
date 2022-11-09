@@ -90,7 +90,7 @@ main{
     gap: 50px;
 }
 
-.header{
+#header{
     display: flex;
     flex-direction: column;
     align-items: center;

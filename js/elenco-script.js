@@ -54,6 +54,7 @@ function caixas(){
 
 const header = document.getElementById("header")
 const passivaBox = document.getElementsByClassName("passiva")
+// const textosBox = document.getElementsByClassName("textos")
 
 const ficha = [
     {nome: "Aegislash", pokemonImg: "stat-aegislash" ,ataque: "F", passivaImg:["Indefeso","Stance-Change"] ,passivaNome:["Indefeso","Mudança de Posição"],
@@ -63,10 +64,12 @@ const ficha = [
 
 }
 ]
+
 {/* <source src="../imgs/pokecard/Aegislash/Indefeso.png"> */}
 function pokeinfo(id){
     for(let i=0;i<=ficha.length-1;i++){
         if(id === ficha[i].nome){
+            //Header
             const infoPokeImg = document.createElement("img")
             infoPokeImg.setAttribute("src", `../imgs/pokecard/${ficha[i].nome}/${ficha[i].pokemonImg}.png`)
             infoPokeImg.setAttribute("alt", ficha[i].nome)
@@ -96,30 +99,31 @@ function pokeinfo(id){
             header.appendChild(infoAtaque)
             //Falta colocar as evos
             
+            //Passiva
             for(let j=0;j<=ficha[i].passivaImg.length-1;j++){
                 const infoPassivaImg = document.createElement("img")
                 infoPassivaImg.setAttribute("src","../imgs/pokecard/"+ficha[i].nome+"/"+ficha[i].passivaImg[j]+".png")
-                
+                infoPassivaImg.setAttribute("alt",ficha.passivaNome)
+                infoPassivaImg.setAttribute("class","habilidadeIcone")
+                passivaBox[j].appendChild(infoPassivaImg)
+
                 const textosBox = document.createElement("div")
                 textosBox.setAttribute("class", "textos")
+                passivaBox[j].appendChild(textosBox)
 
                 const infoPassivaNome = document.createElement("h2")
                 infoPassivaNome.setAttribute("class","nomeHabilidade")
                 infoPassivaNome.innerText= ficha[i].passivaNome[j]
+                textosBox[j].appendChild(infoPassivaNome)
 
                 const infoTipoHabilidade = document.createElement("p")
                 infoTipoHabilidade.setAttribute("class","tipoHabilidade")
                 infoTipoHabilidade.innerText = "Habilidade passiva"
+                textosBox[j].appendChild(infoTipoHabilidade)
 
                 const infoPassivaDescricao = document.createElement("p")
                 infoPassivaDescricao.setAttribute("class","descricao")
                 infoPassivaDescricao.innerText = ficha[i].passivaDescri[j]
-
-                passivaBox[j].appendChild(infoPassivaImg)
-                passivaBox.appendChild(textosBox)
-
-                textosBox[j].appendChild(infoPassivaNome)
-                textosBox[j].appendChild(infoTipoHabilidade)
                 textosBox[j].appendChild(infoPassivaDescricao)
             }
 

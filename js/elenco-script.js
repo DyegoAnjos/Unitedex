@@ -110,21 +110,22 @@ function pokeinfo(id){
                 const textosBox = document.createElement("div")
                 textosBox.setAttribute("class", "textos")
                 passivaBox[j].appendChild(textosBox)
+                const textosBoxs = document.getElementsByClassName("textos")
 
                 const infoPassivaNome = document.createElement("h2")
                 infoPassivaNome.setAttribute("class","nomeHabilidade")
                 infoPassivaNome.innerText= ficha[i].passivaNome[j]
-                textosBox[j].appendChild(infoPassivaNome)
+                textosBoxs[j].appendChild(infoPassivaNome)
 
                 const infoTipoHabilidade = document.createElement("p")
                 infoTipoHabilidade.setAttribute("class","tipoHabilidade")
                 infoTipoHabilidade.innerText = "Habilidade passiva"
-                textosBox[j].appendChild(infoTipoHabilidade)
+                textosBoxs[j].appendChild(infoTipoHabilidade)
 
                 const infoPassivaDescricao = document.createElement("p")
                 infoPassivaDescricao.setAttribute("class","descricao")
                 infoPassivaDescricao.innerText = ficha[i].passivaDescri[j]
-                textosBox[j].appendChild(infoPassivaDescricao)
+                textosBoxs[j].appendChild(infoPassivaDescricao)
             }
 
         }

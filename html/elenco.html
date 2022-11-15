@@ -24,16 +24,16 @@
         <div id="menu">
             <i class="fa-solid fa-bars"></i>
             <div id="opcs">
-                <a href="index.html" target="_self">Home</a>
-                <a href="html/elenco.html" target="_self">Pokémon</a>
-                <a href="html/itens-batalha.html" target="_self">Itens de Batalha</a>
-                <a href="html/itens-segurar.html" target="_self">Itens de Segurar</a>
+                <a href="../index.html" target="_self">Home</a>
+                <a href="elenco.html" target="_self">Pokémon</a>
+                <a href="itens-batalha.html" target="_self">Itens de Batalha</a>
+                <a href="itens-segurar.html" target="_self">Itens de Segurar</a>
             </div>
         </div>
     </header>
     
     <main>
-        <div class="elenco">
+        <div id="elenco">
             <h2 class="titulo">Pokedéx Unite</h2>
             <div class="classes">
                 <div class="classe">
@@ -59,45 +59,136 @@
             </div>
         </div>
 
-        <div class="pokeinfo">
+        <div id="pokeinfo">
             <div id="header">
-                <!-- <img src="../imgs/pokecard/Aegislash/stat-aegislash.png" alt="Aegislash" class="pokeimg"> -->
-                <!-- <h2 class="nomePokemon">Aegislash</h2> -->
-                <!-- <h4 class="tipoAtaque">Ataque Físico</h4> -->
-                <!-- <div class="evo">
-                    <div class="miniCard">
-                        <img src="../imgs/pokecard/Aegislash/Honedge.png" alt="Honedge" class="evoIcone">
-                        <div class="descriEvo">
-                            <h3 class="nomeEvo">Honedge</h3>
-                            <p class="nivel">Evolução no 5</p>
-                        </div>
-                    </div>
-                    <div class="miniCard">
-                        <img src="../imgs/pokecard/Aegislash/Doublade.png" alt="Doublade" class="evoIcone">
-                        <div class="descriEvo">
-                            <h3 class="nomeEvo">Doublade</h3>
-                            <p class="nivel">Evolução no 7</p>
-                        </div>
-                    </div>
-                </div> -->
+                <img id="pokeimg">
+                <h2 id="nomePokemon"></h2>
+                <h4 id="tipoAtaque"></h4>
             </div>
             <article>
-                <div class="habilidade passiva">
-                    <!-- <div class="textos"></div> -->
-                </div>
-                <div class="habilidade passiva">
-                        <!-- <div class="textos">
-                            <h2 class="nomeHabilidade">Indefeso</h2>
-                            <p class="tipoHabilidade">Habilidade passiva</p>
-                            <p class="descricao">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, quae dolor! Facilis animi quisquam doloremque, dolore deleniti at ut. Laborum qui pariatur unde atque eligendi ex. Optio accusamus id iusto! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates temporibus soluta voluptate fugit, autem dolorum eaque dolores nemo aspernatur consequuntur sapiente eius facere voluptatem delectus officia voluptatum eum? In, amet.</p> -->
-                        </div> 
+                <div class="habilidade">
+                    <img class="habilidadeIcone passiva">
+                    <div class="textos">
+                        <h2 class="nomeHabilidade passiva"></h2>
+                        <p class="tipoHabilidade passiva"></p>
+                        <p class="descricao passiva"></p>
                     </div>
+                </div>
+                <div class="habilidade">
+                    <img class="habilidadeIcone passiva">
+                    <div class="textos">
+                        <h2 class="nomeHabilidade passiva"></h2>
+                        <p class="tipoHabilidade passiva"></p>
+                        <p class="descricao passiva"></p>
+                    </div>
+                    
+                </div>
             </article>
-                <article></article>
-                <article></article>
-                <article></article>
-                <article></article>
-            
+            <article class="habilidadeBasica">
+                <div class="primaria">
+                    <img src="../imgs/pokecard/Attack.png" alt="Ataque Básico" class="habilidadeIcone">
+                    <div class="texto">
+                        <h2 class="nomeHabilidade">Ataque basico</h2>
+                        <p class="descricao ataque"></p>
+                    </div>
+                </div>
+            </article>
+            <article class="habilidadeBasica">
+                <div class="primaria">
+                    <img class="habilidadeIcone inicial">
+                    <div class="textos">
+                        <h2 class="nomeHabilidade inicial"></h2>
+                        <div class="info">
+                            <p class="tipoHabilidade">Habilidade 1</p>
+                            <p class="tipoHabilidade inicial tempo"></p>
+                            <p class="tipoHabilidade inicialtipo"></p>
+                        </div>
+                        <p class="descricao inicial"></p>
+                    </div>
+                </div>
+                <div class="escolha">
+                    <div class="habilidadeEscolha">
+                        <img class="habilidadeIcone escolha1">
+                        <h2 class="nomeHabilidade escolha1"></h2>
+                        <div class="info">
+                            <p class="tipoHabilidade escolha1"></p>
+                            <p class="tipoHabilidade escolha1Tempo"></p>
+                            <p class="tipoHabilidade escolha1Tipo"></p>
+                        </div>
+                        <p class="descricao escolha1"></p>
+                    </div>
+                    <div class="habilidadeEscolha">
+                        <img class="habilidadeIcone escolha1">
+                        <h2 class="nomeHabilidade escolha1"></h2>
+                        <div class="info">
+                            <p class="tipoHabilidade escolha1"></p>
+                            <p class="tipoHabilidade escolha1Tempo"></p>
+                            <p class="tipoHabilidade escolha1Tipo"></p>
+                        </div>
+                        <p class="descricao escolha1"></p>
+                    </div>
+                </div>
+                
+            </article>
+            <article class="habilidadeBasica">
+                <div class="primaria">
+                    <img class="habilidadeIcone inicial">
+                    <div class="textos">
+                        <h2 class="nomeHabilidade inicial"></h2>
+                        <div class="info">
+                            <p class="tipoHabilidade">Habilidade 1</p>
+                            <p class="tipoHabilidade inicial tempo"></p>
+                            <p class="tipoHabilidade inicialtipo"></p>
+                        </div>
+                        <p class="descricao inicial"></p>
+                    </div>
+                </div>
+                <div class="escolha">
+                    <div class="habilidadeEscolha">
+                        <img class="habilidadeIcone escolha2">
+                        <h2 class="nomeHabilidade escolha2"></h2>
+                        <div class="info">
+                            <p class="tipoHabilidade escolha2"></p>
+                            <p class="tipoHabilidade escolha2Tempo"></p>
+                            <p class="tipoHabilidade escolha2Tipo"></p>
+                        </div>
+                        <p class="descricao escolha2"></p>
+                    </div>
+                    <div class="habilidadeEscolha">
+                        <img class="habilidadeIcone escolha2">
+                        <h2 class="nomeHabilidade escolha2"></h2>
+                        <div class="info">
+                            <p class="tipoHabilidade escolha2"></p>
+                            <p class="tipoHabilidade escolha2Tempo"></p>
+                            <p class="tipoHabilidade escolha2Tipo"></p>
+                        </div>
+                        <p class="descricao escolha2"></p>
+                    </div>
+                </div>
+                
+            </article>
+            <article>
+                <div class="habilidade">
+                    <img class="habilidadeIcone ult">
+                    <div class="textos">
+                        <h2 class="nomeHabilidade ultNome"></h2>
+                        <div class="info">
+                            <p class="tipoHabilidade ultNivel"></p>
+                            <p class="tipoHabilidade ultTipo"></p>
+                        </div>
+                        
+                        <p class="tipoHabilidade">Descrição</p>
+                        <p class="descricao ultDescricao">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor voluptate ea natus impedit consectetur est nulla fugiat maxime, asperiores itaque beatae quas iure blanditiis sunt ab quia mollitia? Itaque, quasi.</p>
+                        
+                        <div class="ultBox">
+                            <h2 class="nomeHabilidade">Unite Buffs:</h2>
+                            <p class="tipoHabilidade">6s de duração</p>
+                            <p class="descricao ultBuffDescri">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem earum iusto incidunt praesentium doloribus odit culpa ducimus asperiores quisquam alias ratione sunt sapiente, veniam sint. Dicta modi et possimus incidunt?</p>
+                        </div>
+                    
+                    </div>
+                </div>
+            </article>
         </div>
     </main>
     <footer>

@@ -16,7 +16,7 @@ main{
     align-items: center;
 }
 
-.elenco{
+#elenco{
     padding: 50px;
     display: flex;
     flex-direction: column;
@@ -77,14 +77,14 @@ main{
 
 /* Pokeinfo */
 
-.pokeinfo{
+#pokeinfo{
     width: 70%;
     background-image: url(../imgs/bgs/Padrão.jpg);
     border-radius: 50px;
     padding: 30px;
     margin: 200px;  
 
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     gap: 50px;
@@ -97,7 +97,7 @@ main{
     gap: 20px;
 }
 
-.pokeimg{
+#pokeimg{
     width: 40%;
     background-color: var(--Azul);
     border-radius: 50%;
@@ -105,13 +105,13 @@ main{
     padding: 20px;
 }
 
-.nomePokemon{
+#nomePokemon{
     color:  aliceblue;
 
     font-size: 4rem;
 }
 
-.tipoAtaque{
+#tipoAtaque{
     width: 40%;
     background-color: var(--Azul);
     border-radius: 50px;
@@ -123,7 +123,7 @@ main{
     text-align: center;
 }
 
-.evo{
+#evo{
     background-color: var(--Azul);
     border-radius: 50px;
 
@@ -186,4 +186,40 @@ article{
 
 .descricao{
     color: aliceblue;
+}
+
+.habilidadeBasica{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.primaria{
+    display: flex;
+    gap: 20px;
+}
+
+.escolha{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 50px;
+}
+
+.habilidadeEscolha{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.info{
+    display: flex;
+    gap: 50px;
+}
+
+.ultBox{
+    margin-top: 30px;
 }

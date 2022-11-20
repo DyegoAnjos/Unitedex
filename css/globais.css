@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -8,6 +10,7 @@
 :root{
     --laranja: #f6aa1c;
     --Azul: #00072d;
+    font-family: 'Comfortaa', cursive;
 }
 
 /* Cabeçalho */
@@ -94,4 +97,26 @@ footer h2{
 .snorlax{
     min-width: 196px;
     width: 50%;
+}
+
+@media (max-width: 800px){
+    h1{
+        font-size: 30pt;
+    }
+
+    header i{
+        font-size: 30px;
+    }
+
+    .logo{
+        width: 80px;
+    }
+
+    .social{
+        flex-direction: column;
+    }
+
+    footer h2{
+        font-size: 30pt;
+    }
 }

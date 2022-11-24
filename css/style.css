@@ -13,7 +13,6 @@ article:first-child{
 article:first-child img{
     width: 30%;
 }
-
 article:first-child img:first-child{
     animation-name: gengar;
     animation-iteration-count: infinite;
@@ -42,7 +41,7 @@ article:last-child{
 
 .balao{
     min-width: 300px;
-    width: 50%;
+    width: 60%;
     background-color: var(--laranja);
     border-radius: 380px 0px 380px 0px;
 

@@ -19,7 +19,7 @@ const icones = [
 
 
 //Infos pokémon
-const ficha = [
+const pokeFicha = [
     {
         nome: "Aegislash",
         pokemonImg: "stat-aegislash" ,
@@ -102,5 +102,28 @@ const ficha = [
         ultDescricao: "Crie uma bola de fogo gigante e chute-a em direção ao inimigo designado para um golpe certeiro, causando dano aos inimigos na área de efeito. Aplique 2 pilhas de cinzas no alvo e cause dano adicional com base no HP perdido.",
         ultBuffDescri: "30% de velocidade de movimento, 35% de velocidade de ataque, 20% de escudo máximo de HP"
 
+    },
+]
+
+//Itens
+const itens = [
+    {nome:"Botão de fuga", img:"Eject-Button" ,id:"B"},
+    {nome:"Cauda Macia", img:"Fluffy-Tail" ,id:"B"},
+    {nome:"Cura Total", img:"Full-Heal" ,id:"B"},
+    {nome:"Acelerador Gol", img:"Goal-Getter" ,id:"B"},
+    {nome:"Poção", img:"Potion" ,id:"B"},
+    {nome:"Fumaça Branca", img:"Slow-Smoke" ,id:"B"},
+    {nome:"Ataque X", img:"X-Attack" ,id:"B"},
+    {nome:"Velocidade X", img:"X-Speed" ,id:"B"},
+]
+
+const itensFicha = [
+    {
+        nome:"B0tão de fuga",
+        img:"Eject-Button",
+        classe:"B",
+        tempo:70,
+        descricao:"",
+        nivel: 11,
     },
 ]

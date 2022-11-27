@@ -119,11 +119,74 @@ const itens = [
 
 const itensFicha = [
     {
-        nome:"B0tão de fuga",
+        nome:"Botão de fuga",
         img:"Eject-Button",
         classe:"B",
         tempo:70,
-        descricao:"",
+        descricao:"Mova-se rapidamente em uma direção designada.",
         nivel: 11,
+    },
+
+    {
+        nome:"Cauda Macia",
+        img:"Fluffy-Tail",
+        classe:"B",
+        tempo:25,
+        descricao:"Aplique um debuff a um Pokémon selvagem por 3 segundos. O debuff desativa os ataques do Pokémon afetado e aciona um golpe adicional quando o usuário causa dano direto ao alvo. O golpe adicional causa 100% Atk + 60% SpA + 10*(Nível-1) + 100 e tem um cooldown de 0,5 segundo.",
+        nivel: 10,
+    },
+
+    {
+        nome:"Cura Total",
+        img:"Full-Heal",
+        classe:"B",
+        tempo:40,
+        descricao:"Remova todas as condições de status e torne-se imune a obstáculos por um curto período de tempo. (duração de 2,5s).",
+        nivel: 14,
+    },
+
+    {
+        nome:"Acelerador Gol",
+        img:"Goal-Getter",
+        classe:"B",
+        tempo:90,
+        descricao:"Dobra a velocidade de marcação de gols por um curto período de tempo. (duração de 10s)",
+        nivel: 17,
+    },
+
+    {
+        nome:"Poção",
+        img:"Potion",
+        classe:"B",
+        tempo:30,
+        descricao:"Restaura um pouco do seu HP. (20% HP máximo + 160).",
+        nivel: 3,
+    },
+
+    {
+        nome:"Fumaça Branca",
+        img:"Slow-Smoke",
+        classe:"B",
+        tempo:45,
+        descricao:"Crie um anel de fumaça ao seu redor, reduzindo bastante a velocidade de movimento dos inimigos em 80% e a velocidade de ataque em 30% dentro da área. (duração de 2s).",
+        nivel: 13,
+    },
+
+    {
+        nome:"Ataque X",
+        img:"X-Attack",
+        classe:"B",
+        tempo:40,
+        descricao:"Aumenta sua velocidade de ataque básica em 25%, ataque e Sp. Ataque em 20% por um curto período de tempo. (duração de 7s).",
+        nivel: 7,
+    },
+
+    {
+        nome:"Velocidade X",
+        img:"X-Speed",
+        classe:"B",
+        tempo:50,
+        descricao:"Aumenta sua velocidade de movimento em 45% e fica imune a redução de velocidade de movimento por 6s.",
+        nivel: 8,
     },
 ]

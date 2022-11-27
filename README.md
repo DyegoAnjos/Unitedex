@@ -10,8 +10,8 @@
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-- [ ] Home.
+- [X] Home.
 - [ ] Menu Hamburger.
-- [ ] Pokémons
-- [ ] Seleção de pokémon
+- [X] Pokémons
+- [X] Seleção de pokémon
 - [ ] Itens

@@ -115,6 +115,7 @@ const itens = [
     {nome:"Fumaça Branca", img:"Slow-Smoke" ,id:"B"},
     {nome:"Ataque X", img:"X-Attack" ,id:"B"},
     {nome:"Velocidade X", img:"X-Speed" ,id:"B"},
+    {nome:"Velocidade X", img:"X-Speed" ,id:"S"},
 ]
 
 const itensFicha = [
@@ -122,6 +123,15 @@ const itensFicha = [
         nome:"Botão de fuga",
         img:"Eject-Button",
         classe:"B",
+        tempo:70,
+        descricao:"Mova-se rapidamente em uma direção designada.",
+        nivel: 11,
+    },
+
+    {
+        nome:"Botão de fuga",
+        img:"Eject-Button",
+        classe:"S",
         tempo:70,
         descricao:"Mova-se rapidamente em uma direção designada.",
         nivel: 11,

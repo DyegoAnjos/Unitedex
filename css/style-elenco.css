@@ -23,7 +23,7 @@ main{
     background-color: var(--laranja);
     border-radius: 1000px 0px 1000px 0px;
     text-align: center;
-    font-size: 99.18pt;
+    font-size: 60pt;
 }
 
 .classes{
@@ -214,4 +214,10 @@ article{
 
 .ultBox{
     margin-top: 30px;
+}
+
+@media (max-width: 900px) {
+    .titulo{
+        font-size: 30pt;
+    }
 }

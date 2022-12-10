@@ -14,4 +14,4 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [ ] Menu Hamburger.
 - [X] Pokémons
 - [X] Seleção de pokémon
-- [ ] Itens
+- [X] Itens

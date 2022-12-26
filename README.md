@@ -1,8 +1,8 @@
 # Unitedex
 
-![GitHub repo size](https://img.shields.io/github/repo-size/DyegoAnjos/Login-aluno?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/DyegoAnjos/Login-aluno?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/DyegoAnjos/Login-aluno?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/DyegoAnjos/Unitedex?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/DyegoAnjos/LUnitedex?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/DyegoAnjos/Unitedex?style=for-the-badge)
 
 > Esse projeto é um site de pokémon unite para um trabalho.
 

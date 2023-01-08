@@ -250,4 +250,31 @@ article{
         margin-bottom: 10px;
     }
 
+    #pokeimg{
+        width: 70%;
+        padding: 10px;
+    }
+
+    #evo{
+        flex-direction: column;
+        font-size: 0.8rem;
+    }
+
+    .miniCard{
+        width: 70%;
+    }
+
+    #nomePokemon{
+        font-size: 2rem;
+    }
+
+    #tipoAtaque{
+        font-size: 1rem;
+    }
+
+    .nomeHabilidade{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
 }

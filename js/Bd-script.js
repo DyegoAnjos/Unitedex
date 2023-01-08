@@ -129,15 +129,6 @@ const itensFicha = [
     },
 
     {
-        nome:"Botão de fuga",
-        img:"Eject-Button",
-        classe:"S",
-        tempo:70,
-        descricao:"Mova-se rapidamente em uma direção designada.",
-        nivel: 11,
-    },
-
-    {
         nome:"Cauda Macia",
         img:"Fluffy-Tail",
         classe:"B",

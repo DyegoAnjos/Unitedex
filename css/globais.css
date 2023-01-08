@@ -22,6 +22,8 @@ header{
     justify-content: space-around;
     align-items: center;
     position: fixed;
+    z-index: 1;
+
 }
 
 .logo{
@@ -47,13 +49,26 @@ header i{
 }
 
 #opcs{
-    display: flex;
+    background-color: var(--Azul);
+    position: absolute;
+    height: 200px;
+    width: 20%;
+    justify-content: space-around;
+    display: none;
     flex-direction: column;
     align-items: center;
+    top: 100%;
+    border-radius: 0px 0px 20px 20px;
 }
 
 #opcs a{
     color: var(--laranja);
+    width: 100%;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 /* Rodapé */
@@ -118,5 +133,9 @@ footer h2{
 
     footer h2{
         font-size: 30pt;
+    }
+
+    #opcs a{
+        font-size: 1rem;
     }
 }

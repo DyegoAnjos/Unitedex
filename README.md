@@ -38,6 +38,3 @@ O projeto está hospedado com o hospedagem gratuita do github
 ## 📫 Redes sociais
 - <a href="https://github.com/DyegoAnjos" target="_blank">GitHub</a>
 - <a href="https://www.linkedin.com/in/dyego-cordeiro-8491891a3/" target="_blank">Linkedin</a>
-
-
-

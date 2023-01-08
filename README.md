@@ -19,10 +19,10 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 ## 💻 Habilidades no Projeto
 
-<img src="/imgs/readme/html.svg" alt="Habilidade Imagem" style="width: 10px;">
-<img src="/imgs/readme/css.png" alt="Habilidade Imagem" style="width: 10px;">
-<img src="/imgs/readme/js.png" alt="Habilidade Imagem" style="width: 20px;">
-<img src="/imgs/readme/responsivo.png" alt="Habilidade Imagem" style="width: 30px;">
+<img src="/imgs/readme/html.svg" alt="Habilidade Imagem" style="width: 50px;">
+<img src="/imgs/readme/css.png" alt="Habilidade Imagem" style="width: 50px;">
+<img src="/imgs/readme/js.png" alt="Habilidade Imagem" style="width: 60px;">
+<img src="/imgs/readme/responsivo.png" alt="Habilidade Imagem" style="width: 80px;">
 
 ## 🚀 Link para o Site
 

@@ -1,20 +1,8 @@
 //Elenco
 const icones = [
     {nome:"Aegislash", id:"V"},
-    {nome:"Azumarill", id:"V"},
-    {nome:"Buzzwole", id:"V"},
     {nome:"Cinderace", id:"A"},
-    {nome:"Cramorant", id:"A" },
-    {nome:"Decidueye", id:"A"},
-    {nome:"Blastoise", id:"D"},
-    {nome:"Crustle", id:"D"},
-    {nome:"Greedent", id:"D"},
-    {nome:"Absol", id:"Vl"},
-    {nome:"Dodrio", id:"Vl"},
-    {nome:"Gengar", id:"Vl"},
-    {nome:"Blissey", id:"S"},
-    {nome:"Clefable", id:"S"},
-    {nome:"Eldegoss", id:"S"},
+    
 ]
 
 
